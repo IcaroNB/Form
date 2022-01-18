@@ -1,0 +1,56 @@
+* { 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(204, 162, 243);
+    font: normal 14px Arial;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+  }
+  
+  .header-logo {
+    height: 45px;
+  }
+  
+  .header-menu {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .header-menu-item {
+    font-family: "Sarala", sans-serif;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .header-menu-item:hover {
+    border-bottom: 1.5px solid #ffff;
+  }
+
+  section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 12px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.main-com {
+  text-align: left;
+  height: 200px;
+  width: 100%;
+}
+
+.inputs-container {
+  margin: 8px 0 ;
+}

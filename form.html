@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" id="Camp" href="chrono-logo.png" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-logo" src="chrono-logo.png" alt="chrono-logo">
+        <nav class="header-menu">
+            <a class="header-menu-item">Início</a>
+            <a class="header-menu-item">Dúvidas</a>
+            <a class="header-menu-item">Devolver pra quê</a>
+            <a class="header-menu-item">Fazer PIX pro dono!</a>
+        </nav>
+    </header>
+    <section>
+        <h3>A Chrono Enterprises agradece pela compra que efetuou conosco. E caso não tenha feito a compra, nós lhe
+            perdoamos.</h3>
+        <p>Buscando sempre a melhora em nosso atendimento (que não é dos melhores... Eu sei...).</p>
+        <p>Nos diga em apenas 745 palavras como foi sua experiência.</p>
+        <p>Aproveite pra nos dizer por quê vai continuar comprando conosco <strong>(Você vai! Não é opcional!)</strong>
+            e continuará indicando nossos serviços <strong>(meia-boca por sinal)</strong> para seus amigos e parentes.
+        </p>
+
+        <form>
+            <div class="inputs-container">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" />
+            </div>
+            <div class="inputs-container">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" />
+            </div>
+
+            <div class="inputs-container">
+                <label for="atendimento">Forma de Atendimento:</label>
+                <select name="atendimento" id="atendimento">
+                    <option value="Telefone">Telefone</option>
+                    <option value="Site">Site</option>
+                    <option value="MeioRua">Meio da rua</option>
+                    <option value="Fapé">Fui a pé pra loja pra não pagar estacionamento</option>
+                </select>
+                </div>
+                <div class="inputs-container">
+                    <label for="produto">Qual produto você adiquiriu?</label>
+                <select name="produto" id="produto">
+                    <option value="marreta">Marreta de desentortar vidro</option>
+                    <option value="whisky">Whisky Red Labial</option>
+                    <option value="tenis">Tênis Naike</option>
+                    <option value="cerveja">Cerveja Haikomem</option>
+                </select>
+                </div>
+
+            <div class="inputs-container">
+                <label for="comment">Seu comentário:</label>
+                <textarea class="main-com" id="comment"> </textarea>
+            </div>
+
+            <button type="button">Enviar (ou não...)</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
